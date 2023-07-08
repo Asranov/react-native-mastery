@@ -6,14 +6,14 @@
  */
 
 import React from 'react';
-import { SafeAreaView, StatusBar, StyleSheet, Text } from 'react-native';
+import { SafeAreaView, StyleSheet } from 'react-native';
+import SimpleTextInput from './src/components/SimpleTextInput';
 
 function App(): JSX.Element {
 
   return (
     <SafeAreaView>
-      <StatusBar barStyle="dark-content" backgroundColor="red" />
-      <Text>App</Text>
+      <SimpleTextInput />
     </SafeAreaView>
   );
 }
