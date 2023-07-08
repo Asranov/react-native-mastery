@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
-import SimpleModal from './src/components/SimpleModal';
-import SimplePressable from './src/components/SimplePressable';
+import SimpleRefreshControl from './src/components/SimpleRefreshControl';
+import SimpleScrollView from './src/components/SimpleScrollView';
 import SimpleStatusBar from './src/components/SimpleStatusBar';
 
 function App(): JSX.Element {
@@ -9,7 +9,6 @@ function App(): JSX.Element {
   return (
     <SafeAreaView>
       <SimpleStatusBar />
-      <SimpleModal />
     </SafeAreaView>
   );
 }
