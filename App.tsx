@@ -1,13 +1,11 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet } from 'react-native';
-import SimpleStatusBar from './src/components/SimpleStatusBar';
+import { StyleSheet } from 'react-native';
+import AppBar from './src/components/AppBar';
 
 function App(): JSX.Element {
 
   return (
-    <SafeAreaView>
-      <SimpleStatusBar />
-    </SafeAreaView>
+    <AppBar />
   );
 }
 
