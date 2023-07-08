@@ -1,19 +1,15 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
-import SimpleTextInput from './src/components/SimpleTextInput';
+import SimpleModal from './src/components/SimpleModal';
+import SimplePressable from './src/components/SimplePressable';
+import SimpleStatusBar from './src/components/SimpleStatusBar';
 
 function App(): JSX.Element {
 
   return (
     <SafeAreaView>
-      <SimpleTextInput />
+      <SimpleStatusBar />
+      <SimpleModal />
     </SafeAreaView>
   );
 }
