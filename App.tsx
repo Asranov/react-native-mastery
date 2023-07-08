@@ -1,14 +1,14 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text } from 'react-native';
+import SimpleFetch from './src/components/Networking/SimpleFetch';
 import SimpleStatusBar from './src/components/SimpleStatusBar';
-import SimpleStyling from './src/components/Styling/SimpleStyling';
 
 function App(): JSX.Element {
 
   return (
     <SafeAreaView>
       <SimpleStatusBar />
-      <SimpleStyling />
+      <SimpleFetch />
     </SafeAreaView>
   );
 }
