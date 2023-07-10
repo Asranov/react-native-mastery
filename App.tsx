@@ -1,11 +1,13 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import AppBar from './src/components/AppBar';
+import RenderUser from './src/components/ApiServices/RenderUser';
 
 function App(): JSX.Element {
 
   return (
-    <AppBar />
+    <>
+      <RenderUser />
+    </>
   );
 }
 
