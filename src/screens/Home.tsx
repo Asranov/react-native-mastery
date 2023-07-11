@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Button, Pressable, Text, StyleSheet } from 'react-native';
+import { View, Button, StyleSheet } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
 
 type RootStackParamList = {
