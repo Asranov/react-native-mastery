@@ -1,13 +1,12 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import RenderUser from './src/components/ApiServices/RenderUser';
-import Main from './src/screens/Main';
+import FormValidation from './src/components/FormValidation';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <Main />
+      <FormValidation />
     </>
   );
 }
