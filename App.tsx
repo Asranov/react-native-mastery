@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import FormValidation from './src/components/FormValidation';
+import CreateUser from './src/components/ApiServices/CreateUser';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <FormValidation />
+      <CreateUser />
     </>
   );
 }
