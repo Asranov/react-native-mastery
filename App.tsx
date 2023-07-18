@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import CreateUser from './src/components/ApiServices/CreateUser';
+import ContactsComponent from './src/components/Contacts/ContactsComponent';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <CreateUser />
+      <ContactsComponent />
     </>
   );
 }
