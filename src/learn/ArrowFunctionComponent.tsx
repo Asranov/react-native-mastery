@@ -10,6 +10,7 @@ const ArrowFunctionComponent = () => {
     <View style={styles.container}>
       <TouchableOpacity onPress={handleClick} style={styles.button}>
         <Text style={styles.text}>Click me (Arrow Function)</Text>
+        <Text>This is a Arrow Function</Text>
       </TouchableOpacity>
     </View>
   );
