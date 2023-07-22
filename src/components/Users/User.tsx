@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { Text, View } from 'react-native'
 
-
 interface User {
   name: string,
   age: number,
   isMaried?: boolean | undefined
 }
+
 const User = () => {
   const [users, setUsers] = useState<User[]>([
     {

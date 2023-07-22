@@ -1,18 +1,13 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
-import User from './src/components/Users/User';
+import { Text } from 'react-native';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <User />
+      <Text>My App</Text>
     </>
   );
 }
-
-const styles = StyleSheet.create({
-
-});
 
 export default App;
