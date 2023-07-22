@@ -1,11 +1,11 @@
 import React from 'react';
-import { Text } from 'react-native';
+import Test from './src/learn/Test';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <Text>My App</Text>
+      <Test />
     </>
   );
 }
