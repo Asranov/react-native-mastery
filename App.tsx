@@ -1,11 +1,11 @@
 import React from 'react';
-import TestLearn from './src/learn/TestLearn';
+import TestFonts from './src/learn/TestFonts';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <TestLearn />
+      <TestFonts />
     </>
   );
 }
