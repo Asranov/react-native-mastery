@@ -1,11 +1,11 @@
 import React from 'react';
-import TestFonts from './src/learn/TestFonts';
+import LearnAsync from './src/learn/LearnAsync';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <TestFonts />
+      <LearnAsync />
     </>
   );
 }
