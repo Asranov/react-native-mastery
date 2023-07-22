@@ -1,11 +1,11 @@
 import React from 'react';
-import Test from './src/learn/Test';
+import TestLearn from './src/learn/TestLearn';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <Test />
+      <TestLearn />
     </>
   );
 }
