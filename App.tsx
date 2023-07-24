@@ -1,11 +1,11 @@
 import React from 'react';
-import LearnAsync from './src/learn/LearnAsync';
+import UseEffectHook from './src/hooks/UseEffectHook';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <LearnAsync />
+      <UseEffectHook />
     </>
   );
 }
