@@ -1,11 +1,11 @@
 import React from 'react';
-import UseEffectHook from './src/hooks/UseEffectHook';
+import UseRefHook from './src/hooks/UseRefHook';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <UseEffectHook />
+      <UseRefHook />
     </>
   );
 }
