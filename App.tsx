@@ -1,11 +1,11 @@
 import React from 'react';
-import UseCallback from './src/hooks/UseCallback';
+import UseMemoHook from './src/hooks/UseMemoHook';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <UseCallback />
+      <UseMemoHook />
     </>
   );
 }
