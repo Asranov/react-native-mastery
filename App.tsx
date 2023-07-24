@@ -1,11 +1,11 @@
 import React from 'react';
-import UseRefHook from './src/hooks/UseRefHook';
+import UseCallback from './src/hooks/UseCallback';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <UseRefHook />
+      <UseCallback />
     </>
   );
 }
