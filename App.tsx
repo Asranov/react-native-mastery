@@ -1,11 +1,12 @@
 import React from 'react';
-import UseMemoHook from './src/hooks/UseMemoHook';
+import { Text } from 'react-native';
+import CounterComponent from './src/hooks/CustomHooks/CounterComponent';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <UseMemoHook />
+      <CounterComponent />
     </>
   );
 }
