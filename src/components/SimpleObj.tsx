@@ -1,4 +1,5 @@
 import React from 'react'
+import { TextInput } from 'react-native';
 
 function SimpleObj() {
   const users = [
@@ -37,7 +38,9 @@ function SimpleObj() {
   const mariedUsers = users.filter((user) => user.isMaried);
 
   return (
-    <div>SimpleObj</div>
+    <div>
+      <TextInput placeholder='enter' />
+    </div>
   )
 }
 
